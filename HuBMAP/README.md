@@ -33,7 +33,7 @@ Notebooks' frameworks were heavily insp from [Matthias](https://www.kaggle.com/m
 
 <div align = "justify">  
   
-- Final submission kernel used a ensembling of two models with highest Public Score (0.936/0.935).  Private Score: 0.9467; Public Score: 0.9394
+- Final submission kernel used a ensembling of two models with highest Public Score (0.936/0.935).  _Private Score: 0.9467; Public Score: 0.9394_
   
  </div>
 
