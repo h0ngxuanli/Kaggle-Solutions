@@ -12,7 +12,7 @@ Notebooks' frameworks were heavily insp from [Matthias](https://www.kaggle.com/m
 
 <div align = "justify"> 
   
-- We integrated test set with pseudo-labels into train set. The pseudo-labels were generated from [Kidney Unet model (keras) inference [Version 284] ](https://www.kaggle.com/code/vgarshin/kidney-unet-model-keras-inference) and [V2- HuBMAP: TF with Multi model ensumble[sub] [Version 10]](https://www.kaggle.com/code/durbin164/v2-hubmap-tf-with-multi-model-ensumble-sub). 
+- We integrated test set with pseudo-labels into train set. The pseudo-labels [submission_TF_1_034_10.csv](HuBMAP/model3/submission_TF_1_034_10.csv) / [submission.csv](HuBMAP/0.936gpu1-b3_lr_find_me20_bs12/submission.csv) were generated from [V2- HuBMAP: TF with Multi model ensumble[sub] [Version 10]](https://www.kaggle.com/code/durbin164/v2-hubmap-tf-with-multi-model-ensumble-sub) and [Kidney Unet model (keras) inference [Version 284] ](https://www.kaggle.com/code/vgarshin/kidney-unet-model-keras-inference) separately. 
   
 </div>
 
