@@ -2,9 +2,8 @@
 
 Competition description: [https://www.kaggle.com/competitions/siim-isic-melanoma-classification](https://www.kaggle.com/competitions/siim-isic-melanoma-classification)
 
-Special thanks to [JOJO](https://www.kaggle.com/yolo1996)
+Special thanks to [Chris](https://www.kaggle.com/cdeotte). I learned a lot from his notebooks and discussion topics.
 
-Original submission used YOLOV5 model with Pseudo Labeling method, which used OOF-evaluation to search the best `score_threshold` for final prediction.  
 
-Final submission kernel used efficientdet d5 with TTA (Test Time Augmentation) such as Flip, Rotate. Private Score: 0.9401; Public Score: 0.9653
- The training environment is Colab Pro. 
+. The model was optimized through Stratified Leak-Free 5-Fold CV with upsampled 7× malignant
+subjects in train set to circumvent highly imbalance in dataset.
