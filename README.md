@@ -6,8 +6,8 @@ Hongxuan's Kaggle profile: https://www.kaggle.com/h0ngxuanli
 ### SIIM-ISIC Melanoma Classification: 🥈SILVER MEDAL (118/3308).
 
 <div align = "justify"> 
-My first Kaggle competition. I stuck to eliminating the effect of distribution discrepancy between 2020 and 2019/2018/2017 data with my research experience
-on domain adaptation. But the negligible improvement and even performance degradation confused me.
+My first Kaggle competition. I stuck to eliminating the distribution discrepancy between 2020 and 2019/2018/2017 data with my research experience
+on domain adaptation. But I failed with negligible improvement and even performance degradation.
 </div>
 
 ### HuBMAP Glomeruli Identification: 🥈SILVER MEDAL (40/1200).
