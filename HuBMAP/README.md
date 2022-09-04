@@ -2,12 +2,23 @@
 
 Competition description: [https://www.kaggle.com/c/hubmap-kidney-segmentation](https://www.kaggle.com/c/hubmap-kidney-segmentation)
 
-Notebooks' frameworks were heavily insp from [Matthias](https://www.kaggle.com/matjes). We put the two model with highest Public Score  ensembling predictions to the global feature extraction.
+Notebooks' frameworks were heavily insp from [Matthias](https://www.kaggle.com/matjes). 
 
-Randomly sampled tiles with a high probability of containing glomeruli from TIFF tissue image to enable a
-robust model and fast training convergence. Random tile centers were selected based on probability density
-function(PDF) which was created by assigning weights for cortex(0.46), medulla(0.17), and background(0.02)
-regions according to anatomical structure.
+<div align = "justify"> 
+  
+[hubmap-anatomy-zarr](HuBMAP/0.936gpu1-b3_lr_find_me20_bs12/hubmap-anatomy-zarr.ipynb) / [hubmap-labels-pdf](HuBMAP/0.936gpu1-b3_lr_find_me20_bs12/hubmap-labels-pdf-0-5-0.16-0-01.ipynb) / [hubmap-zarr](HuBMAP/0.936gpu1-b3_lr_find_me20_bs12/hubmap-zarr.ipynb) created probability density function(PDF) by assigning weights for cortex, medulla, and background regions according to anatomical structure.  
+  
+</div>
+
+<div align = "justify">  
+  
+ During training, randomly sampled tiles with a high probability of containing glomeruli based on PDF from TIFF tissue image to enable a robust model and fast training convergence. Augmented image with RandomBrightnessContrast, HueSaturationValue and ContrastLimitedAHE to suppress the effect of blur, over-bright and over-dark regions in the image.
+  
+ </div>
+
+
+We put the two model with highest CV Score  ensembling predictions to the global feature extraction.
+
 
 
 
