@@ -25,7 +25,7 @@ Notebooks' frameworks were heavily insp from [Matthias](https://www.kaggle.com/m
 
 <div align = "justify">  
   
-- During training, We randomly sampled tiles with a high probability of containing glomeruli based on PDF from TIFF tissue image to enable a robust model and fast training convergence. We adopted the U-net with EfficientNet as backbone to train on those tiles and the model was trained With Mixed Precision to double the batch size.
+- During training, we randomly sampled tiles with a high probability of containing glomeruli based on PDF from TIFF tissue image to enable a robust model and fast training convergence. We adopted the U-net with EfficientNet as backbone to train on those tiles and the model was trained With Mixed Precision to double the batch size.
 
  </div>
   
@@ -33,7 +33,7 @@ Notebooks' frameworks were heavily insp from [Matthias](https://www.kaggle.com/m
 
 <div align = "justify">  
   
-- Final submission kernel used a ensembling of two models with highest Public Score (0.936/0.935).  _Private Score: 0.9467; Public Score: 0.9394_
+- Final submission kernel used an ensemble of two models with highest Public Score (0.936/0.935).  _Private Score: 0.9467; Public Score: 0.9394_
   
  </div>
 
